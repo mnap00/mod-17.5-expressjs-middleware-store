@@ -15,6 +15,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/userform', function(req, res) {
+    console.log('Received GET request on form');
     const response = {
         first_name: req.query.first_name,
         last_name: req.query.last_name
@@ -23,6 +24,7 @@ app.get('/userform', function(req, res) {
 });
 
 app.get('/store', function(req, res) {
+    console.log('Received GET request on store');
     res.send('This is store');
 });
 
