@@ -11,7 +11,7 @@ app.use('/store', function(req, res, next) {
 
 app.get('/', function(req, res) {
     console.log('Received GET request on main site');
-    res.sendFile('/index.html');
+    res.sendFile(__dirname + '/assets/form.html');
 });
 
 app.get('/userform', function(req, res) {
