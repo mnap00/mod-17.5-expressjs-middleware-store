@@ -22,7 +22,7 @@
   "homepage": "https://github.com/mnap00/mod-17.5-expressjs-middleware-store#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.17.3"
   },
   "devDependencies": {}
 }
